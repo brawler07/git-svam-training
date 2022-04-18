@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles/signup.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Create an account</h1>
+    <h5><a href="Signin.html"><button>Already registered?</button></a></h6>
+    <p>Please fill up this form to create an account</p>
+    <hr>
+    <table>
+        <form>
+      
+            <tr>
+                <!-- <td>
+                    <label for="First Name">First Name</label>
+                </td> -->
+                <td>
+                    <input type="text" placeholder ="First Name " id="First Name" required>
+                <!-- </td>
+
+                <td>
+                    <label for="Last Name">Last Name</label>
+                </td> -->
+                <td>
+                    <input type="text" placeholder="Last Name" id="Last Name" required>
+                </td>
+
+            
+
+            </tr>
+            <tr>
+
+            <!-- <td>
+                <label for="email">Email</label>
+            </td> -->
+            <td>
+                <input type="email" placeholder="Email" id="email" required>
+            </td>
+
+            </tr>
+            
+           <td>
+           <!-- Male <input type="radio" name="g">
+           Female <input type="radio" name="g"> -->
+
+           <select required>
+    <option>Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Prefer not to say</option>
+           </select>
+
+           </td>
+            <tr>
+            <!-- <td>
+                <label for="Password">password</label>
+            </td> -->
+            <td>
+                <input type="password" placeholder="Password" id="password" required>
+            </td>
+          
+        </tr>
+        <tr>
+            <td>
+                <input type="password" placeholder="Confirm password" id="password" required>
+            </td>
+           
+        </tr>
+
+        <tr>
+            <td>
+                <input type="checkbox" required> I accept the <a href="https://www.google.com">terms of use</a> & <a href="https://www.youtube.com">privacy policy.</a>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="signup">
+            </td>
+        </tr>
+           
+        </form>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+button{
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(16, 2, 49);
+    font-size: medium;
+    margin-right: 50px;
+    margin-left:20px;
+    /* padding:20px; */
+    background-color:rgba(231, 94, 94, 0.096);
+    border-style:hidden;
+    border-radius:25px;
+    
+}
+head{
+    background-color: rgb(68, 3, 3);
+   
+}
+
+.container{
+   
+    justify-content: center;
+    background-color: aqua;
+    width: 500px;
+    /* height: 700px; */
+  
+}
+body{
+    background-color: aqua;
+}
+button:hover{
+    background-color: lightsalmon;
+    border-style:none
+}
